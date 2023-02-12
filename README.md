@@ -4,9 +4,8 @@
 
 ## Built With
 
-- Major languages: HTML, CSS, JavaScript.
-- Frameworks: Bootstrap, React.
-- Technologies used: webpack.
+- Major languages: HTML5, CSS3.
+- Frameworks: Bootstrap 5
 
 ## Live Demo 
 
