@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/* header */
+
+.nav-wrapper {
+  background-color: black;
+  color: white;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+
+.nav-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.internal-wrapper {
+  width: 980px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.nav-wrapper .link-wraper ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-wrapper .link-wraper ul li {
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+
+.nav-wrapper .link-wraper ul li:hover {
+  opacity: 1;
+}
+
+.log-wrapper,
+.search-wrapper,
+.cart-wrapper {
+  width: 18px;
+}
+
+/* footer styling */
+
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-link-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.footer-wrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.footer-link-wrapper a {
+  color: 515154;
+  text-decoration: none;
+}
+
+.footer-link-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.footer-link-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.my-apple-wrapper a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.my-apple-wrapper a:hover {
+  text-decoration: underline;
+}
+
+.copyrigt-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+
+.footer-link-term ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+
+.footer-link-term ul li:last-child {
+  border-right: 0px;
+}
+
+.footer-link-term ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.footer-link-term ul li a:hover {
+  text-decoration: underline;
+}
+
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flag-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* main header */
+
+.main-highlighter-wrapper {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.links-wrapper ul {
+  list-style: none;
+}
+
+.model {
+  font-size: 0.85em;
+}
+
+.product-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.brief-description {
+  font-size: 28px;
+}
+
+.link-wrapper {
+  padding: 15px 0;
+}
+
+.link-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.link-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+}
+
+.link-wrapper ul li a:hover {
+  color: #000;
+}
+
+/* it should inter from google */
+
+.link-wrapper ul li a:after {
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  content: '\f105';
+  padding-left: 10px;
+}
+
+/* second highlighter wrapper */
+
+.second-highlighter-wrapper {
+  background-image: url('../images/home/iphone11-pro-bg.jpg');
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
+
+.title-wrapper {
+  font-weight: 600;
+  font-size: 56px;
+}
+
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+.price-wrapper {
+  color: #86868b;
+  font-size: 0.85em;
+}
+
+/* third highlighter wrapper  */
+
+.third-highlighter-wrapper {
+  background-image: url('../images/home/iphone11-bg.jpg');
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #000;
+}
+
+.fourth-highlighter-wrapper {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.left-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+
+.fourth-highlighter-wrapper .left-side-wrapper {
+  background-image: url('../images/home/watch-series-5.jpg');
+}
+
+.right-side-wrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width: 48.5%;
+  margin: 1% 1% 0% 0.5%;
+  padding-top: 54px;
+}
+
+.fourth-highlighter-wrapper .right-side-wrapper {
+  background-image: url('../images/home/apple-card.jpg');
+}
+
+.description-wrapper {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.fifth-highlighter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.fifth-highlighter-wrapper .left-side-wrapper {
+  background-image: url('../images/home/apple-tv-background.jpg');
+}
+
+.fifth-highlighter-wrapper .right-side-wrapper {
+  background-image: url('../images/home/air-pods.jpg');
+  color: #fff;
+  background-size: initial;
+  background-color: #000;
+  background-position: bottom;
+}
+
+.logo-wrapper {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tvshow-logo-wrapper {
+  padding: 180px 0 200px;
+}
+
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.watch-more-wrapper a:after {
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  content: '\f144';
+  padding-left: 15px;
+}
+
+/* sixth Highlight Section */
+
+.sixth-highlighter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.sixth-highlighter-wrapper .left-side-wrapper {
+  background-image: url('../images/home/macbook-pro.jpg');
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+
+.sixth-highlighter-wrapper .right-side-wrapper {
+  background-image: url('../images/home/new-ipad.jpg');
+}
+
+.product-title-small {
+  font-weight: 700;
+  font-size: 45px;
+}
