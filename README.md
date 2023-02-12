@@ -1,4 +1,4 @@
-# Apple Clone
+# Static apple clone 
 
 > Static apple clone website is a clone of the Apple website.
 
