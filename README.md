@@ -27,10 +27,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 * Git 
-* nodejs 
 
 
-👤 **Author**
+👤 **Abigiya Tadesse**
 
 * GitHub: [@githubhandle](https://github.com/AbigiyaTY)
 * Twitter: [@twitterhandle](https://twitter.com/AbigiyaTY)
